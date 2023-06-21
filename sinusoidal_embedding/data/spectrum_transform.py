@@ -1,11 +1,17 @@
+import numpy as np
+
 from matchms import Spectrum
 from matchms import Spikes
 from matchms.filtering import normalize_intensities
 
 class SpectrumNumericalMZTransform(object):
     def __init__(
-            self, n_max=512, peak_limits=(0, 1000), include_fractional_mz=False,
-            normalize_peak_intensities=False):
+            self, 
+            n_max=512, 
+            peak_limits=(0, 9223372036854775807), 
+            include_fractional_mz=False,
+            normalize_peak_intensities=True,
+        ):
         self._n_max = n_max
         self._peak_limits = peak_limits
         self._normalize_peak_intensities = normalize_peak_intensities
