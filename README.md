@@ -9,6 +9,9 @@ poetry add git+https://github.com/enveda/sinusoidal-embedding.git
 ```
 
 ## Usage example
+
+The example below is a brief example of how to instantiate and use sinusoidal peak embeddings. The output of the `peak_embedding` is a tensor with dimensions `[batch, peak sequence, embedding]` and can be passed to any torch sequence model. 
+
 ```
 import numpy as np
 
