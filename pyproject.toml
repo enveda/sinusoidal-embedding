@@ -9,6 +9,8 @@ packages = [{include = "sinusoidal_embedding"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+matchms = "^0.20.0"
+torch = "^2.0.1"
 
 
 [build-system]
