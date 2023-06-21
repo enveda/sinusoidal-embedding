@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "sinusoidal_embedding"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.8.1,<3.10"
 matchms = "^0.20.0"
 torch = "^2.0.1"
 
