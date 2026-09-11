@@ -3,7 +3,7 @@ name = "sinusoidal-embedding"
 version = "0.1.0"
 description = ""
 authors = ["Gennady Voronov <gennady.voronov@envedabio.com>"]
-license = "GNU GPL v2.0"
+license = "MIT"
 readme = "README.md"
 packages = [{include = "sinusoidal_embedding"}]
 
